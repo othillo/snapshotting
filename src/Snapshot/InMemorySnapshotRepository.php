@@ -1,13 +1,13 @@
 <?php
 
 declare(strict_types=1);
-/**
+/*
  * This file is part of the broadway/snapshotting package.
  *
- *  (c) Qandidate.com <opensource@qandidate.com>
+ * (c) 2020 Broadway project
  *
- *  For the full copyright and license information, please view the LICENSE
- *  file that was distributed with this source code.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace Broadway\Snapshotting\Snapshot;
@@ -15,7 +15,7 @@ namespace Broadway\Snapshotting\Snapshot;
 class InMemorySnapshotRepository implements SnapshotRepository
 {
     /**
-     * @var Snapshot[]
+     * @var array
      */
     private $store = [];
 
